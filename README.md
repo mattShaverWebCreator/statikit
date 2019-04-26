@@ -1,6 +1,7 @@
 # Statikit
 
-![](https://img.shields.io/github/package-json/v/miikis/statikit.svg?style=for-the-badge)
+![](https://img.shields.io/github/package-json/v/miikis/statikit.svg?color=tomato&label=latest&style=flat-square)
+
 This is a bare-bones webpack starter for small, static sites.
 
 ## Usage
