@@ -2,7 +2,7 @@
     "name": "statikit",
     "version": "0.1.0",
     "description": "Build static, multi-page websites with Webpack",
-    "repository": "https://github.com/Miikis/statikit",
+    "repository": "https://github.com/Miikis/statikit.git",
     "scripts": {
         "make-git": "rm -rf .git && git init",
         "postinstall": "if [ -n \"$npm_config_production\" ]; then npm run make-git && rm -rf notes.ooutline; fi",
