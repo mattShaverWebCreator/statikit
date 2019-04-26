@@ -10,10 +10,13 @@ This is a bare-bones webpack starter for small, static sites.
 
 `git clone https://github.com/Miikis/statikit.git <path-to-your-project-directory>`
 
-### Install dependencies & remove .git info
+### Install dependencies
 
-`npm install --production`
-**Note:** _Using the `--production` flag runs a post-install script that will remove the .git info from this repo and `git init` you a brand new Git repo. Afterwards, feel free to go in and remove the `postinstall` & `make-git` properties in `package.json`._
+`npm install`
+
+### Remove git info if you want a clean working directory
+
+`cd <your-project-dir> && rm -rf .git && git init`
 
 ## Features
 
