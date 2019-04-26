@@ -12,11 +12,11 @@ This is a bare-bones webpack starter for small, static sites.
 
 ### Install dependencies
 
-`npm install`
+`cd <your-project-dir> && npm install`
 
 ### Remove git info if you want a clean working directory
 
-`cd <your-project-dir> && rm -rf .git && git init`
+`rm -rf .git && git init`
 
 ## Features
 
