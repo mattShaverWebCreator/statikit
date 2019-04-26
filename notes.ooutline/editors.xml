@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.omnigroup.com/namespace/OmniOutliner/xmloutline-editors-v1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0?>
+<editors xmlns="http://www.omnigroup.com/namespace/OmniOutliner/editors/v1">
+  <editor content-size="{1280, 680}" is-spellchecking-enabled="yes" auto-size-outline-column="no">
+    <sidebar width="343" selected-tab="styles"/>
+    <column-states columns-id="iJQHZJRD_cJ">
+      <column-state column-id="f9WzkqyFgKZ" width="32" summary="state"/>
+      <column-state column-id="dTpN3JwYpBn" width="18"/>
+      <column-state column-id="jFqHUGd_Dg1" width="635"/>
+    </column-states>
+    <note-split-view height="33"/>
+    <item-states>
+      <item item-id="cWY7aWSllqY" note-expanded="yes"/>
+      <item item-id="d6QXDgpo26w" note-expanded="yes"/>
+      <item item-id="eHOv1Wm3DEn" note-expanded="yes"/>
+      <item item-id="gQ-dSdynwh-" note-expanded="yes"/>
+      <item item-id="keWiYkr8Qwu" note-expanded="yes"/>
+      <item item-id="mUzf523MIcv" note-expanded="yes"/>
+      <item item-id="ncz27D0R8cQ" note-expanded="yes"/>
+      <item item-id="pKlnzSNMRQt" note-expanded="yes"/>
+    </item-states>
+  </editor>
+</editors>

@@ -5,7 +5,7 @@
     "repository": "https://github.com/Miikis/statikit",
     "scripts": {
         "make-git": "rm -rf .git && git init",
-        "postinstall": "if [ -n \"$npm_config_production\" ]; then npm run make-git; fi",
+        "postinstall": "if [ -n \"$npm_config_production\" ]; then npm run make-git && rm -rf notes.ooutline; fi",
         "build": "NODE_ENV=production webpack",
         "start": "webpack-dev-server",
         "format": "prettier --write \"**/*.{js,css,html,json}\""

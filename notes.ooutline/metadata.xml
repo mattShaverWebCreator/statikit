@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kMDItemCopyright</key>
+	<string>Mikis Woodwinter</string>
+	<key>kMDItemDescription</key>
+	<string>Requirements &amp; Structure</string>
+	<key>kMDItemSubject</key>
+	<string>statikit</string>
+	<key>kMDItemVersion</key>
+	<string>0.1.0</string>
+</dict>
+</plist>

@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.omnigroup.com/namespace/OmniOutliner/xmloutline-v5.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0?>
+<outline xmlns="http://www.omnigroup.com/namespace/OmniOutliner/v5" type-of-file-on-disk="package">
+  <style-attribute-registry>
+    <style-attribute version="0" key="font-family" group="font" name="family" class="string">Helvetica</style-attribute>
+    <style-attribute version="1" key="font-fill" group="font" name="fill color" class="color">
+      <color space="gg22" w="0"/>
+    </style-attribute>
+    <style-attribute version="0" key="font-italic" group="font" name="italic" class="bool">no</style-attribute>
+    <style-attribute version="0" key="font-size" group="font" name="size" class="number" integral="0" min="1" max="65536">12</style-attribute>
+    <style-attribute version="0" key="font-weight" group="font" name="weight" class="number" integral="1" min="1" max="14">5</style-attribute>
+    <style-attribute version="0" key="heading-suffix(com.omnigroup.OmniOutliner)" group="heading" name="suffix" class="string"></style-attribute>
+    <style-attribute version="0" key="heading-type(com.omnigroup.OmniOutliner)" group="heading" name="type" class="string">None</style-attribute>
+    <style-attribute version="0" key="paragraph-alignment" group="paragraph" name="alignment" class="enum">
+      <enum-name-table default-value="4">
+        <enum-name-table-element value="0" name="left"/>
+        <enum-name-table-element value="1" name="right"/>
+        <enum-name-table-element value="2" name="center"/>
+        <enum-name-table-element value="3" name="justified"/>
+        <enum-name-table-element value="4" name="natural"/>
+      </enum-name-table>
+    </style-attribute>
+    <style-attribute version="0" key="paragraph-base-writing-direction" group="paragraph" name="writing direction" class="enum">
+      <enum-name-table default-value="-1">
+        <enum-name-table-element value="-1" name="natural"/>
+        <enum-name-table-element value="0" name="left-to-right"/>
+        <enum-name-table-element value="1" name="right-to-left"/>
+      </enum-name-table>
+    </style-attribute>
+    <style-attribute version="1" key="strikethrough-color" group="strikethrough" name="color" class="color">
+      <color space="gg22" w="0"/>
+    </style-attribute>
+    <style-attribute version="0" key="text-background-color" group="text" name="background color" class="color">
+      <color space="gg22" w="0" a="0"/>
+    </style-attribute>
+    <style-attribute version="1" key="underline-color" group="underline" name="color" class="color">
+      <color space="gg22" w="0"/>
+    </style-attribute>
+  </style-attribute-registry>
+  <named-styles>
+    <named-style id="jmMHkfmYZ1M" name="Yellow" display-order="4">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.709804" g="0.537255" b="0"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="bTe_rdzFha5" name="Heading 1" display-order="0">
+      <style>
+        <inherited-style name="Yellow" idref="jmMHkfmYZ1M"/>
+        <value key="font-size">28</value>
+        <value key="font-weight">3</value>
+      </style>
+    </named-style>
+    <named-style id="iE7BoSEDglP" name="Heading 2" display-order="1">
+      <style>
+        <inherited-style name="Yellow" idref="jmMHkfmYZ1M"/>
+        <value key="font-size">20</value>
+      </style>
+    </named-style>
+    <named-style id="pEuyXj84FqX" name="Emphasis" display-order="2">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.345098" g="0.431373" b="0.458824"/>
+        </value>
+        <value key="font-weight">9</value>
+      </style>
+    </named-style>
+    <named-style id="oNjvfB6_IzG" name="Highlight" display-order="3">
+      <style>
+        <value key="text-background-color">
+          <color space="srgb" r="0.933333" g="0.909804" b="0.835294"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="a0st9oz2FO1" name="Orange" display-order="5">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.796078" g="0.294118" b="0.086275"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="n7Lfd4MM7uE" name="Red" display-order="6">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.862745" g="0.196078" b="0.184314"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="aeYpF7M08yK" name="Magenta" display-order="7">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.827451" g="0.211765" b="0.509804"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="fyki-wDjq0-" name="Violet" display-order="8">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.423529" g="0.443137" b="0.768627"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="hAkuUjwYLH4" name="Blue" display-order="9">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.14902" g="0.545098" b="0.823529"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="eF5w5ahSfcU" name="Cyan" display-order="10">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.164706" g="0.631373" b="0.596078"/>
+        </value>
+      </style>
+    </named-style>
+    <named-style id="kH8JuFLRG40" name="Green" display-order="11">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.521569" g="0.6" b="0"/>
+        </value>
+      </style>
+    </named-style>
+  </named-styles>
+  <settings>
+    <base-style>
+      <style>
+        <value key="font-family">Avenir</value>
+        <value key="font-fill">
+          <color space="srgb" r="0.313902" g="0.172876" b="0.476972"/>
+        </value>
+        <value key="font-size">14</value>
+        <value key="font-weight">6</value>
+        <value key="heading-suffix(com.omnigroup.OmniOutliner)">.</value>
+        <value key="heading-type(com.omnigroup.OmniOutliner)">Legal</value>
+        <value key="paragraph-base-writing-direction">left-to-right</value>
+        <value key="text-background-color">
+          <color space="srgb" r="0.992753" g="0.963233" b="0.89023"/>
+        </value>
+      </style>
+    </base-style>
+    <margin-color>
+      <color space="srgb" r="0.992753" g="0.963233" b="0.89023"/>
+    </margin-color>
+    <horizontal-grid-color>
+      <color space="gg22" w="0" a="0.2"/>
+    </horizontal-grid-color>
+    <page-adornment header-top-margin="0" footer-bottom-margin="0"/>
+    <print-info>
+      <print-info-key name="NSBottomMargin" type="float">0</print-info-key>
+      <print-info-key name="NSJobDisposition" type="string">NSPrintCancelJob</print-info-key>
+      <print-info-key name="NSJobFeatures" type="coded">BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9uYXJ5AISEDE5TRGljdGlvbmFyeQCEhAhOU09iamVjdACFhAFpAIY=</print-info-key>
+      <print-info-key name="NSLeftMargin" type="float">0.00288057</print-info-key>
+      <print-info-key name="NSPagesPerSheet" type="int">1</print-info-key>
+      <print-info-key name="NSPaperSize" type="size">{611.99999332427979, 792}</print-info-key>
+      <print-info-key name="NSReversePageOrder" type="boolean">false</print-info-key>
+      <print-info-key name="NSRightMargin" type="float">0</print-info-key>
+      <print-info-key name="NSTopMargin" type="float">0</print-info-key>
+      <print-info-key name="OOColumnHeaderPrintBehavior" type="int">0</print-info-key>
+      <print-info-key name="OOHideHandles" type="boolean">false</print-info-key>
+      <print-info-key name="OOItemExpansion" type="int">1</print-info-key>
+      <print-info-key name="OOPageHeaderPrintBehavior" type="int">0</print-info-key>
+      <print-info-key name="OOPrintAlternateRowColors" type="boolean">true</print-info-key>
+      <print-info-key name="OOScaleDocumentToFitPageWidth" type="boolean">true</print-info-key>
+      <print-info-key name="OOShouldPrintOtherBackgroundColors" type="boolean">false</print-info-key>
+    </print-info>
+  </settings>
+  <outline-title>
+    <text>
+      <p>
+        <run>
+          <style>
+            <value key="font-family">Helvetica</value>
+            <value key="font-weight">5</value>
+            <value key="paragraph-alignment">center</value>
+          </style>
+          <lit><cell variable="OODocumentFilenameVariableIdentifier"/></lit>
+        </run>
+      </p>
+    </text>
+  </outline-title>
+  <columns id="iJQHZJRD_cJ" is-base-schema="yes" outline-column="jFqHUGd_Dg1" status-column="f9WzkqyFgKZ" note-column="dTpN3JwYpBn">
+    <style>
+      <value key="font-weight">7</value>
+    </style>
+    <column id="f9WzkqyFgKZ" type="checkbox" minimum-width="13" maximum-width="1000000">
+      <title>
+        <text>
+          <p/>
+        </text>
+      </title>
+    </column>
+    <column id="dTpN3JwYpBn" type="text" minimum-width="18" maximum-width="18">
+      <style>
+        <value key="font-fill">
+          <color space="srgb" r="0.62075" g="0.262613" b="0.618254"/>
+        </value>
+        <value key="font-italic">yes</value>
+        <value key="font-size">13</value>
+        <value key="strikethrough-color">
+          <color space="srgb" r="0.641657" g="0.691352" b="0.692339"/>
+        </value>
+        <value key="underline-color">
+          <color space="srgb" r="0.641657" g="0.691352" b="0.692339"/>
+        </value>
+      </style>
+      <title>
+        <text>
+          <p/>
+        </text>
+      </title>
+    </column>
+    <column id="jFqHUGd_Dg1" type="text" minimum-width="13" maximum-width="1000000">
+      <title>
+        <text>
+          <p>
+            <run>
+              <lit>Static Website w/ Webpack (1+ pages, No DB, Simple http(s) server)</lit>
+            </run>
+          </p>
+        </text>
+      </title>
+    </column>
+  </columns>
+  <items>
+    <style>
+      <value key="font-size">18</value>
+      <value key="font-weight">10</value>
+    </style>
+    <style>
+      <value key="font-size">16</value>
+      <value key="font-weight">10</value>
+    </style>
+    <style>
+      <value key="font-size">15</value>
+      <value key="font-weight">10</value>
+    </style>
+    <style>
+      <value key="font-weight">10</value>
+    </style>
+    <style>
+      <value key="font-weight">7</value>
+    </style>
+    <item rank="" is-root="yes" schema="iJQHZJRD_cJ" children-are-sections="yes">
+      <entry/>
+      <entry/>
+      <entry/>
+    </item>
+    <item id="ac4G8uRrSQt" parent-id="mUzf523MIcv" rank="">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Use style-loader &amp; css-loader &amp; sass-loader to transpile css to scss</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="alK5lPPP9Ti" parent-id="lftcYkiipx-" rank="0003">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>webpack.config.js</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="b1iC7yiBvI2" parent-id="i5qPKhw2ld-" rank="00fe5f">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>500.html</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="bteSXDR2nIJ" parent-id="d6QXDgpo26w" rank="0001">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Use svg-url-loader for svgs &lt; 7kb in size</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="cVynrsndQDz" parent-id="lftcYkiipx-" rank="0002">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>package.json</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="cWY7aWSllqY" parent-id="d6QXDgpo26w" rank="0002">
+      <checkbox>checked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>production-only</lit>
+          </run>
+        </p>
+      </text>
+      <text>
+        <p>
+          <run>
+            <lit>Use image-webpack-loader for all images (optimization)</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="d0d8JYJCozL" parent-id="h4aPOwdqSU_" rank="">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>css</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="d6QXDgpo26w" parent-id="ld75kzQ5qrX" rank="0003">
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>png, jpg, gif, svg</lit>
+          </run>
+        </p>
+      </text>
+      <text>
+        <p>
+          <run>
+            <lit>Images</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="dHEfcPXfZYJ" parent-id="h4aPOwdqSU_" rank="0002">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>fonts</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="dv8FmRNsPzZ" parent-id="h4aPOwdqSU_" rank="0004">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>video</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="eHOv1Wm3DEn" parent-id="ld75kzQ5qrX" rank="0005">
+      <checkbox>checked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>web, mp4</lit>
+          </run>
+        </p>
+      </text>
+      <text>
+        <p>
+          <run>
+            <lit>Videos</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="ervoNZjInc-" parent-id="gVP1OJA5dYC" rank="0002">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>404.pug</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="etmnM8ulgqf" parent-id="h4aPOwdqSU_" rank="0001">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>js</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="fLqv3LizbmQ" parent-id="iuUznftrN1_" rank="">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>header.pug</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="fMKmuJsYyAN" parent-id="gVP1OJA5dYC" rank="0004">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>about.pug</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="gQ-dSdynwh-" parent-id="mUzf523MIcv" rank="0001">
+      <checkbox>checked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>production-only</lit>
+          </run>
+        </p>
+      </text>
+      <text>
+        <p>
+          <run>
+            <lit>Use extract-css loader to emit css files</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="gUWoN6UHQX1" parent-id="d6QXDgpo26w" rank="">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Use url-loader for png|jp?g|gif &lt; 7kb in size</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="gVP1OJA5dYC" parent-id="iXGDz4yFR-C" rank="00ff">
+      <checkbox>unchecked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>pages</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="h4aPOwdqSU_" parent-id="i5qPKhw2ld-" rank="00ff">
+      <checkbox>unchecked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>assets</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="i5qPKhw2ld-" parent-id="lftcYkiipx-" rank="">
+      <checkbox>unchecked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>dist</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="iAAfELZ06ZV" parent-id="gVP1OJA5dYC" rank="0001">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>index.pug</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="iXGDz4yFR-C" parent-id="lftcYkiipx-" rank="0001">
+      <checkbox>unchecked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>src</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="i_EC7c2Aj1o" parent-id="iXGDz4yFR-C" rank="0004">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>index.js</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="iuUznftrN1_" parent-id="gVP1OJA5dYC" rank="">
+      <checkbox>unchecked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>_partials</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="jEHQpBEWS9l" parent-id="o8B-7EJ08br" rank="0002">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>video</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="jYKG3wXLAUe" parent-id="gVP1OJA5dYC" rank="0003">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>500.pug</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="k7k8-5qHqTY" parent-id="ld75kzQ5qrX" rank="0006">
+      <checkbox>unchecked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Workflow</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="kBXL7UxwZW9" parent-id="pKlnzSNMRQt" rank="">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Use file-loader to move font-files to dist/</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="kXVv5LGWLQz" parent-id="ncz27D0R8cQ" rank="00ff">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Use HTMLWebpackPlugin &amp; pug-loader to emit .html files for each .pug file in src/pages/*.pug</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="ke7OuGW5M5I" parent-id="o8B-7EJ08br" rank="">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>fonts</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="keWiYkr8Qwu" parent-id="ld75kzQ5qrX" rank="0002">
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>JS / Babel</lit>
+          </run>
+        </p>
+      </text>
+      <text>
+        <p>
+          <run>
+            <lit>Scripts</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="l2QBJqUbJNF" parent-id="h4aPOwdqSU_" rank="0003">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>images</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="lREpAquztzn" parent-id="k7k8-5qHqTY" rank="">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Use webpack-dev-server for hot-module-reloading</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="ld75kzQ5qrX" rank="00ff">
+      <checkbox>unchecked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Requirements</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="lftcYkiipx-" rank="0005">
+      <checkbox>unchecked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Structure</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="m3Kwga59GuF" parent-id="keWiYkr8Qwu" rank="">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>Use babel-loader to transpile js</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="mJbR4Oc4eGM" parent-id="o8B-7EJ08br" rank="0001">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>images</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="mUzf523MIcv" parent-id="ld75kzQ5qrX" rank="0001">
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>CSS / SCSS</lit>
+          </run>
+        </p>
+      </text>
+      <text>
+        <p>
+          <run>
+            <lit>Styles</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="mfFG9z7YE1c" parent-id="iXGDz4yFR-C" rank="00003f">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>js</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="nSF6GX1uw3-" parent-id="i5qPKhw2ld-" rank="00fe6f">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>about.html</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="ncz27D0R8cQ" parent-id="ld75kzQ5qrX" rank="">
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>HTML / Pug</lit>
+          </run>
+        </p>
+      </text>
+      <text>
+        <p>
+          <run>
+            <lit>Content</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="o8B-7EJ08br" parent-id="iXGDz4yFR-C" rank="00fe">
+      <checkbox>unchecked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>assets</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="oJ7sz5uPcNL" parent-id="iuUznftrN1_" rank="0001">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>layout.pug</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="p1XVnjzJHyy" parent-id="iXGDz4yFR-C" rank="">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>scss</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="p5PjuhXFORA" parent-id="i5qPKhw2ld-" rank="00fe3f">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>404.html</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="p8KX-MIhCSF" parent-id="i5qPKhw2ld-" rank="00fe">
+      <checkbox>checked</checkbox>
+      <entry/>
+      <text>
+        <p>
+          <run>
+            <lit>index.html</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+    <item id="pKlnzSNMRQt" parent-id="ld75kzQ5qrX" rank="0004">
+      <checkbox>unchecked</checkbox>
+      <text>
+        <p>
+          <run>
+            <lit>woff, woff2, ttf, eot, otf</lit>
+          </run>
+        </p>
+      </text>
+      <text>
+        <p>
+          <run>
+            <lit>Fonts</lit>
+          </run>
+        </p>
+      </text>
+    </item>
+  </items>
+</outline>
