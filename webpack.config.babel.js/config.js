@@ -1,4 +1,4 @@
-import { join as joinPath, resolve as resolvePath } from "path"
+import { resolve as resolvePath } from "path"
 
 import { getPages } from "./utils"
 
@@ -33,6 +33,7 @@ const entry = (() => {
 })()
 
 const templateEngine = userConfig["template-engine"]
+const context = userConfig["context"]
 
 export {
     port,
@@ -43,5 +44,6 @@ export {
     devtool,
     pages,
     entry,
-    templateEngine
+    templateEngine,
+    context
 }

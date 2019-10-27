@@ -1,3 +1,4 @@
 {
-    "template-engine": "pug"
+    "template-engine": "hbs",
+    "context": {}
 }

@@ -4,7 +4,7 @@ import CleanWebpackPlugin from "clean-webpack-plugin"
 import HtmlWebpackPlugin from "html-webpack-plugin"
 import MiniCssExtractPlugin from "mini-css-extract-plugin"
 
-import { pages, templateEngine } from "../config"
+import { pages, templateEngine, context } from "../config"
 
 const clean = new CleanWebpackPlugin()
 
@@ -20,7 +20,8 @@ const templates = pages.map(page => {
         template,
         filename: `${page}.html`,
         templateParameters: {
-            title: page
+            title: page,
+            ...context
         }
     })
 })
