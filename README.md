@@ -5,22 +5,15 @@
 This is a bare-bones webpack starter for small, static sites.
 
 ## Usage
-
-### Clone the repo into your project's directory
-
-`git clone https://github.com/Miikis/statikit.git <path-to-your-project-directory>`
-
-### Install dependencies
-
-`cd <your-project-dir> && npm install`
-
-### Remove git info if you want a clean working directory
-
-`rm -rf .git && git init`
+1. Fork this repo.
+2. When you create a new repo using GitHub's UI, select Statikit as the template.
+3. Run `yarn install` to install dependencies
+4. `yarn start` for development
+5. `yarn build` for production
 
 ## Features
 
--   [x] Write your site content in [Pug](https://pugjs.org/api/getting-started.html) and take advantage of `includes and`extends so you can stop repeating common HTML blocks, like `<header>`s and `<footer>`s.
+-   [x] Write your site content in [Pug](https://pugjs.org/api/getting-started.html) or [Handlebars](https://handlebarsjs.com/) and take advantage of template inheritance so you can stop repeating common HTML blocks, like `<header>`s and `<footer>`s.
 -   [x] Style your website with [Sass](https://sass-lang.com/) and have your CSS output auto-prefixed and minified.
 -   [x] Write in the newest JavaScript syntax (ES6+).
 -   [x] Automagically optimize the size of your images. Images less than 7kb in size will be converted to base-64 URIs. Everything else is run through image optimizers. Supported file formats include:
@@ -30,7 +23,7 @@ This is a bare-bones webpack starter for small, static sites.
     -   [x] SVG
 -   [x] Have fonts & videos automatically transferred to your production build.
 -   [x] Watch your browser instantly reload as you save your files, thanks to [webpack-dev-server](https://webpack.js.org/configuration/dev-server/).
--   [x] Default prettier config. Use `npm run format` if you ever need to reformat all of your html, css, js and json files. But, if you have a prettier extension installed in your IDE, you'll probably never need to.
+-   [x] Default prettier config. Use `yarn format` if you ever need to reformat all of your html, css, js and json files. But, if you have a prettier extension installed in your IDE, you'll probably never need to.
 
 ## MIT License
 
