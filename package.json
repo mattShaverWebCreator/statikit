@@ -1,6 +1,6 @@
 {
     "name": "statikit",
-    "version": "0.2.2",
+    "version": "1.0.0",
     "description": "Build static, multi-page websites with Webpack",
     "repository": "https://github.com/Miikis/statikit.git",
     "scripts": {
